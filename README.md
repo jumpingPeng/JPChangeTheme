@@ -1,0 +1,3 @@
+# JPChangeTheme
+
+并使用iOS的NSNotification来触发主题切换的动作,对主题切换的一种尝试
