@@ -8,20 +8,56 @@
 
 /* Begin PBXBuildFile section */
 		271DD4941F1FD6D000AB306D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4931F1FD6D000AB306D /* AppDelegate.swift */; };
-		271DD4961F1FD6D000AB306D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4951F1FD6D000AB306D /* ViewController.swift */; };
-		271DD4991F1FD6D000AB306D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271DD4971F1FD6D000AB306D /* Main.storyboard */; };
 		271DD49B1F1FD6D000AB306D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271DD49A1F1FD6D000AB306D /* Assets.xcassets */; };
 		271DD49E1F1FD6D000AB306D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271DD49C1F1FD6D000AB306D /* LaunchScreen.storyboard */; };
+		271DD4BF1F1FD76E00AB306D /* BlackTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4A81F1FD76E00AB306D /* BlackTheme.swift */; };
+		271DD4C01F1FD76E00AB306D /* BlueTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4A91F1FD76E00AB306D /* BlueTheme.swift */; };
+		271DD4C11F1FD76E00AB306D /* GreenTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4AA1F1FD76E00AB306D /* GreenTheme.swift */; };
+		271DD4C21F1FD76E00AB306D /* RedTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4AB1F1FD76E00AB306D /* RedTheme.swift */; };
+		271DD4C31F1FD76E00AB306D /* ThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4AC1F1FD76E00AB306D /* ThemeProtocol.swift */; };
+		271DD4C41F1FD76E00AB306D /* WhiteTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4AD1F1FD76E00AB306D /* WhiteTheme.swift */; };
+		271DD4C51F1FD76E00AB306D /* YellowTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4AE1F1FD76E00AB306D /* YellowTheme.swift */; };
+		271DD4C61F1FD76E00AB306D /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4B01F1FD76E00AB306D /* ThemeManager.swift */; };
+		271DD4C71F1FD76E00AB306D /* ThemeManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4B11F1FD76E00AB306D /* ThemeManagerProtocol.swift */; };
+		271DD4C81F1FD76E00AB306D /* DetailLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4B31F1FD76E00AB306D /* DetailLable.swift */; };
+		271DD4C91F1FD76E00AB306D /* SubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4B41F1FD76E00AB306D /* SubView.swift */; };
+		271DD4CA1F1FD76E00AB306D /* SuperLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4B51F1FD76E00AB306D /* SuperLabel.swift */; };
+		271DD4CB1F1FD76E00AB306D /* ThemeSwitcherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4B61F1FD76E00AB306D /* ThemeSwitcherCell.swift */; };
+		271DD4CC1F1FD76E00AB306D /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4B71F1FD76E00AB306D /* TitleLabel.swift */; };
+		271DD4CD1F1FD76E00AB306D /* FirstSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4B91F1FD76E00AB306D /* FirstSubViewController.swift */; };
+		271DD4CE1F1FD76E00AB306D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4BA1F1FD76E00AB306D /* ViewController.swift */; };
+		271DD4CF1F1FD76E00AB306D /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4BB1F1FD76E00AB306D /* MainTabBarViewController.swift */; };
+		271DD4D01F1FD76E00AB306D /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4BC1F1FD76E00AB306D /* SelectViewController.swift */; };
+		271DD4D11F1FD76E00AB306D /* SuperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4BD1F1FD76E00AB306D /* SuperViewController.swift */; };
+		271DD4D51F1FDE8100AB306D /* SecondSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271DD4D41F1FDE8100AB306D /* SecondSubViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		271DD4901F1FD6D000AB306D /* JPChangeTheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPChangeTheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		271DD4931F1FD6D000AB306D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		271DD4951F1FD6D000AB306D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		271DD4981F1FD6D000AB306D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		271DD49A1F1FD6D000AB306D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		271DD49D1F1FD6D000AB306D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		271DD49F1F1FD6D000AB306D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		271DD4A81F1FD76E00AB306D /* BlackTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackTheme.swift; sourceTree = "<group>"; };
+		271DD4A91F1FD76E00AB306D /* BlueTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueTheme.swift; sourceTree = "<group>"; };
+		271DD4AA1F1FD76E00AB306D /* GreenTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenTheme.swift; sourceTree = "<group>"; };
+		271DD4AB1F1FD76E00AB306D /* RedTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedTheme.swift; sourceTree = "<group>"; };
+		271DD4AC1F1FD76E00AB306D /* ThemeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeProtocol.swift; sourceTree = "<group>"; };
+		271DD4AD1F1FD76E00AB306D /* WhiteTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteTheme.swift; sourceTree = "<group>"; };
+		271DD4AE1F1FD76E00AB306D /* YellowTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowTheme.swift; sourceTree = "<group>"; };
+		271DD4B01F1FD76E00AB306D /* ThemeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		271DD4B11F1FD76E00AB306D /* ThemeManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeManagerProtocol.swift; sourceTree = "<group>"; };
+		271DD4B31F1FD76E00AB306D /* DetailLable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailLable.swift; sourceTree = "<group>"; };
+		271DD4B41F1FD76E00AB306D /* SubView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubView.swift; sourceTree = "<group>"; };
+		271DD4B51F1FD76E00AB306D /* SuperLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperLabel.swift; sourceTree = "<group>"; };
+		271DD4B61F1FD76E00AB306D /* ThemeSwitcherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeSwitcherCell.swift; sourceTree = "<group>"; };
+		271DD4B71F1FD76E00AB306D /* TitleLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
+		271DD4B91F1FD76E00AB306D /* FirstSubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstSubViewController.swift; sourceTree = "<group>"; };
+		271DD4BA1F1FD76E00AB306D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		271DD4BB1F1FD76E00AB306D /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		271DD4BC1F1FD76E00AB306D /* SelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		271DD4BD1F1FD76E00AB306D /* SuperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperViewController.swift; sourceTree = "<group>"; };
+		271DD4D41F1FDE8100AB306D /* SecondSubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondSubViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +91,63 @@
 			isa = PBXGroup;
 			children = (
 				271DD4931F1FD6D000AB306D /* AppDelegate.swift */,
-				271DD4951F1FD6D000AB306D /* ViewController.swift */,
-				271DD4971F1FD6D000AB306D /* Main.storyboard */,
+				271DD4A71F1FD76E00AB306D /* ThemeConfig */,
+				271DD4AF1F1FD76E00AB306D /* ThemeManager */,
+				271DD4B21F1FD76E00AB306D /* View */,
+				271DD4B81F1FD76E00AB306D /* ViewController */,
 				271DD49A1F1FD6D000AB306D /* Assets.xcassets */,
 				271DD49C1F1FD6D000AB306D /* LaunchScreen.storyboard */,
 				271DD49F1F1FD6D000AB306D /* Info.plist */,
 			);
 			path = JPChangeTheme;
+			sourceTree = "<group>";
+		};
+		271DD4A71F1FD76E00AB306D /* ThemeConfig */ = {
+			isa = PBXGroup;
+			children = (
+				271DD4AC1F1FD76E00AB306D /* ThemeProtocol.swift */,
+				271DD4A81F1FD76E00AB306D /* BlackTheme.swift */,
+				271DD4A91F1FD76E00AB306D /* BlueTheme.swift */,
+				271DD4AA1F1FD76E00AB306D /* GreenTheme.swift */,
+				271DD4AB1F1FD76E00AB306D /* RedTheme.swift */,
+				271DD4AD1F1FD76E00AB306D /* WhiteTheme.swift */,
+				271DD4AE1F1FD76E00AB306D /* YellowTheme.swift */,
+			);
+			path = ThemeConfig;
+			sourceTree = "<group>";
+		};
+		271DD4AF1F1FD76E00AB306D /* ThemeManager */ = {
+			isa = PBXGroup;
+			children = (
+				271DD4B01F1FD76E00AB306D /* ThemeManager.swift */,
+				271DD4B11F1FD76E00AB306D /* ThemeManagerProtocol.swift */,
+			);
+			path = ThemeManager;
+			sourceTree = "<group>";
+		};
+		271DD4B21F1FD76E00AB306D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				271DD4B41F1FD76E00AB306D /* SubView.swift */,
+				271DD4B51F1FD76E00AB306D /* SuperLabel.swift */,
+				271DD4B71F1FD76E00AB306D /* TitleLabel.swift */,
+				271DD4B31F1FD76E00AB306D /* DetailLable.swift */,
+				271DD4B61F1FD76E00AB306D /* ThemeSwitcherCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		271DD4B81F1FD76E00AB306D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				271DD4BB1F1FD76E00AB306D /* MainTabBarViewController.swift */,
+				271DD4BD1F1FD76E00AB306D /* SuperViewController.swift */,
+				271DD4BC1F1FD76E00AB306D /* SelectViewController.swift */,
+				271DD4BA1F1FD76E00AB306D /* ViewController.swift */,
+				271DD4B91F1FD76E00AB306D /* FirstSubViewController.swift */,
+				271DD4D41F1FDE8100AB306D /* SecondSubViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +212,6 @@
 			files = (
 				271DD49E1F1FD6D000AB306D /* LaunchScreen.storyboard in Resources */,
 				271DD49B1F1FD6D000AB306D /* Assets.xcassets in Resources */,
-				271DD4991F1FD6D000AB306D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,22 +222,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				271DD4961F1FD6D000AB306D /* ViewController.swift in Sources */,
 				271DD4941F1FD6D000AB306D /* AppDelegate.swift in Sources */,
+				271DD4C71F1FD76E00AB306D /* ThemeManagerProtocol.swift in Sources */,
+				271DD4C51F1FD76E00AB306D /* YellowTheme.swift in Sources */,
+				271DD4C01F1FD76E00AB306D /* BlueTheme.swift in Sources */,
+				271DD4CD1F1FD76E00AB306D /* FirstSubViewController.swift in Sources */,
+				271DD4C31F1FD76E00AB306D /* ThemeProtocol.swift in Sources */,
+				271DD4CA1F1FD76E00AB306D /* SuperLabel.swift in Sources */,
+				271DD4D01F1FD76E00AB306D /* SelectViewController.swift in Sources */,
+				271DD4C21F1FD76E00AB306D /* RedTheme.swift in Sources */,
+				271DD4CE1F1FD76E00AB306D /* ViewController.swift in Sources */,
+				271DD4C81F1FD76E00AB306D /* DetailLable.swift in Sources */,
+				271DD4CF1F1FD76E00AB306D /* MainTabBarViewController.swift in Sources */,
+				271DD4BF1F1FD76E00AB306D /* BlackTheme.swift in Sources */,
+				271DD4C61F1FD76E00AB306D /* ThemeManager.swift in Sources */,
+				271DD4C11F1FD76E00AB306D /* GreenTheme.swift in Sources */,
+				271DD4C91F1FD76E00AB306D /* SubView.swift in Sources */,
+				271DD4CC1F1FD76E00AB306D /* TitleLabel.swift in Sources */,
+				271DD4CB1F1FD76E00AB306D /* ThemeSwitcherCell.swift in Sources */,
+				271DD4D11F1FD76E00AB306D /* SuperViewController.swift in Sources */,
+				271DD4C41F1FD76E00AB306D /* WhiteTheme.swift in Sources */,
+				271DD4D51F1FDE8100AB306D /* SecondSubViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		271DD4971F1FD6D000AB306D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				271DD4981F1FD6D000AB306D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		271DD49C1F1FD6D000AB306D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
